@@ -1,0 +1,121 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navmain{z-index: 11; width: 100%;top:0%; background-color:#023672; position: relative;}
+  .navbar{background-color: #023672 !important}
+  .navbar-brand{display: block;}
+  .navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");}
+  #nav2{top: 0}
+  .slidermain .swiper-container {width: 100%;height: 31%;margin-left: auto;margin-right: auto;}
+
+  .footer .footer_contact .foot_icon {color: #023672;line-height: 15px;font-size: 12px;margin: 0px 0px 10px 0;position: relative;padding-left: 53px;}
+  .dep_home .item .dep_name p{font-size: 16px}
+  .footer .footer_social h4 {color: #023672;font-weight: 700;font-size: 16px;}
+
+ .footer .footer_contact{margin-bottom: 25px;padding-left: 20px!important}
+
+ .footer .footer_social ul{list-style: none;margin-left: -33px !important}
+ .footer .use_link {margin-top: 35px;margin-left: 50px;}
+ .footer .use_link h4{font-size: 16px}
+ .footer .use_link ul {list-style: none;margin-left: -50px;text-align: center;}
+.footer .use_link ul li a{font-size: 14px}
+ .footer .footer_contact .foot_icon span{font-size: 16px}
+
+
+ #abt_pg {margin-left: 35%}
+ #abt_pg .vis_mis_icon{width: 11%;}
+ #abt_pg2 {margin-left: 35%}
+ #abt_pg2 .vis_mis_icon{width: 11%;}
+ .about .about_text .pla_text p {font-size: 16px;}
+
+ .con_us .footer_contact {margin-top: 5rem;margin-left: 0px;}
+ .con_us .footer_social {margin-top: 5rem;margin-left: -77px;text-align: center;}
+ .con_us .footer_social ul{margin-left: 94px}
+
+ .con_us .con_map{ margin-top: 0;margin-left: 4rem ; margin-bottom: 2.5rem}
+ .con_us .con_map iframe{width: 90%;height:45%}
+
+ .gold_btn {margin-left: 40%;margin-top: 1.5rem;}
+}
+/* -------------------- MOBILE ------------------ */
+@media (max-width: 767px){
+.header_logo{margin: 0 auto;width: 100%;padding: 5px 0}
+
+.navmain{z-index: 11; width: 100%;top:0%; background-color:#023672; position: relative;}
+.navbar{background-color: #023672 !important}
+.navbar-brand{display: block !important}
+
+.navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");}
+.navbar-light .navbar-toggler-icon:focus{outline: none}
+#nav2{top: 0px}
+
+.slidermain{ position: relative;}
+.slidermain .swiper-container {width: 100%;height: 24%;margin-left: auto;margin-right: auto;}
+.swiper-button-next i, .swiper-button-prev i{font-size: 33px;color: rgba(255,255,255,.4)}
+.swiper-button-next{right: 2rem !important;}
+.swiper-button-prev{left: 2rem !important}
+
+.Welcome .fea .fea_icon{width: 30%;margin: 0 auto;margin-top: 0px;margin-top: 4rem;}
+.Welcome .wel_title h1{font-size: 1.5rem;}
+.Welcome .fea {margin-top: 1rem;}
+.Welcome .fea .fea_icon {width: 30%;margin: 0 auto;margin-top: 0px;margin-top: 0px;margin-top: 1rem;}
+.Welcome .fea .fea_text  h4{font-size: 1.5rem}
+
+.recent_update h1{ font-size: 1.5rem;}
+.about .about_title{font-size: 29px}
+.about .about_title h1{font-size: 1.28rem}
+.about .about_title h3 span{font-size: .8rem}
+
+.abt_pg {margin-left: 15%}
+.abt_pg .vis_mis_icon{width: 10%; margin-left: 20%}
+.abt_pg .vis_mis_text{margin-left: 105px;color: #023672;font-weight: 600;font-size: 26px}
+
+
+.about .vis_mis .vis_mis_title {margin: 0 auto;margin-left: auto;margin-left: 19%;}
+.about .dept_tab .tab-content .vis_mis .vis_mis_icon {width: 20%;}
+
+
+.activites h1 { font-size: 1.5rem}
+.activites .act_img{margin: 0 auto;}
+.activites .act_img img {border-radius: 25px}
+.activites .act .swiper-container{width: 75px;height: 150px;position: absolute;left: 50%;top: 50%;margin-left: -75px;margin-top: -75px;}
+.activites .act .swiper-slide {background-position: center;background-size: cover; width: 75px;height: 150px}
+.activites .act .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {bottom: -25px !important}
+.activites .act .act_text{margin-top: 20px}
+
+
+
+
+.second_page .bg .title {font-size: 1.5rem}
+
+.activity_area thead tr {position: absolute; top: -9999px; left: -9999px;}
+.activity_area tbody tr {border-top:#e9eef1 5px solid}
+.activity_area tbody tr td {border: none; border-bottom: 1px solid #eee;     position: relative;  line-height:24px !important; display:inline-block; width:100%; min-height:40px;padding: 30px 0 10px 12px !important;}
+.activity_area tbody tr td:before {position: absolute; top: 0; left: 12px; width: 32%; white-space: nowrap; line-height:42px; font-size: 16px; font-weight: 600;color: #023672}
+.activity_area tbody tr td .date{width:100%; text-align:left}
+.activity_area tbody tr td:nth-of-type(1):before { content: "Degree Programs (B.E.)"; }
+.activity_area tbody tr td:nth-of-type(2):before { content: "Intake"; }
+.activity_area tbody tr td:nth-of-type(3):before { content: "Year of Starting"; }
+.activity_area tbody tr td:nth-of-type(4):before { content: "Institute Course"; }
+.activity_area tbody tr td:nth-of-type(5):before { content: "Fees"; }
+
+.adm_inq h1{color: #023672;font-weight: 600;text-align: center;font-size: 26px}
+.radio_costom{margin-left: 10%}
+.fix_field input {transition: all 0.2s;touch-action: manipulation;width: auto;margin-left: 3%}
+.fix_field select{width: 80%;;margin-left: 10%; font-size:1rem;border: 0;border-bottom: 1px solid #023672;font-family: inherit;-webkit-appearance: none;cursor: text}
+.field {display: flex;flex-flow: column-reverse;margin:.5rem;}
+.field input:not(:placeholder-shown) + label {transform: translate(-25px, 15px) scale(.8);;cursor: pointer;color:#023672;}
+.btn {margin-left: 12%;}
+
+.event_pg .owl-nav div.owl-prev { right: 0}
+
+.event_pg h3{color: #ff8600;text-align: center;font-size: 20px}
+.event_pg .event_text .slde p{font-size: 15px;color: #023672;font-weight: 600;}
+
+.con_us .footer_contact {margin-top: 1rem;margin-left: 25px;}
+.con_us .footer_social {margin-top: 1rem;margin-left: 0px;text-align: center;}
+.con_us .footer_social ul {list-style: none;margin-left: 3.9rem;}
+.con_us .con_map{ margin-left: 2rem ; margin-bottom: 2.5rem;margin-top: 1rem}
+.con_us .con_map iframe{width: 90%;height:90%}
+
+.gold_btn {margin-left: 25%;margin-top: 1.5rem;}
+
+}
