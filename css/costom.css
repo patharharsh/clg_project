@@ -71,6 +71,9 @@
 .about .about_title h1{font-size: 1.28rem}
 .about .about_title h3 span{font-size: .8rem}
 
+.about .vis_mis .title img {width: 30px;}
+.about .vis_mis .title{font-size: 25px}
+
 .Faculty .item {padding: 10px 10px;background-color: #fff;min-height: 545px;}
 
 
