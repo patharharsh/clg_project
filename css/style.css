@@ -117,7 +117,7 @@ body{font-family: 'Heebo', sans-serif;}
 .about .about_text .place_img img{width: 100%}
 
 .abt_pg {margin-left: 40%}
-.abt_pg .vis_mis_icon{width: 8%; float: left;}
+.abt_pg .vis_mis_icon{width: 7%; float: left;}
 .abt_pg .vis_mis_icon img{width: 100%}
 .abt_pg .vis_mis_text{margin-left: 4rem;color: #023672;font-weight: 600;font-size: 36px}
 
@@ -128,9 +128,9 @@ body{font-family: 'Heebo', sans-serif;}
 .about .dept_tab .tab-content ul{margin-top: 1.5rem}
 .about .dept_tab .tab-content .vis_mis_bg{background:url(../img/solidbg.jpg) center top/cover no-repeat fixed ; position:relative; overflow: hidden; color: #fff}
 .about .dept_tab .tab-content .vis_mis .vis_mis_title{margin: 0 auto;}
-.about .dept_tab .tab-content .vis_mis .vis_mis_icon{width: 9%; float: left;}
+.about .dept_tab .tab-content .vis_mis .vis_mis_icon{width: 9%; float: left;margin-left: 33%}
 .about .dept_tab .tab-content .vis_mis .vis_mis_icon img{width: 100%}
-.about .dept_tab .tab-content .vis_mis .vis_mis_text{margin-left: 4rem;color: #023672;font-weight: 600;font-size: 36px}
+.about .dept_tab .tab-content .vis_mis .vis_mis_text{margin-left: 15rem;color: #023672;font-weight: 600;font-size: 36px}
 .about .dept_tab .tab-content .vis_mis p{margin-top: 1.5rem;text-align: justify;}
 .about .dept_tab .tab-content .vis_mis h1{color: #023672;font-weight: 600}
 .about .dept_tab .tab-content .vis_mis ul{margin-top: 1.5rem;text-align: justify;}
@@ -177,6 +177,8 @@ body{font-family: 'Heebo', sans-serif;}
 .Faculty .owl-nav div.owl-next img{width: 100%}
 
 .adm_other{text-align: center;margin: 1.5rem 0}
+.adm_other ul{text-align: center; list-style: none;}
+.adm_other ul li{list-style: none;}
 .adm_other h3{color: #023672;font-weight: 600; font-size: 1.5rem}
 .adm_other p a{text-decoration: none; color: #ff8600}
 .adm_other p a:hover {color: #023672}
@@ -224,6 +226,7 @@ form {padding: 2rem 0;}
 
 .fix_field select{width: auto;;margin-left: 1%; font-size:1rem;border: 0;border-bottom: 1px solid #023672;font-family: inherit;-webkit-appearance: none;cursor: text}
 .fix_field input {transition: all 0.2s;touch-action: manipulation;width: auto;}
+.form_input {margin-top: 2%}
 .form-group {position: relative; margin-bottom: 25px;}
 .form-group .form-control{border:none; background:transparent; box-shadow:none; border-bottom:#dbdbdb 2px solid; border-radius:0px; padding-left:0px; color:#000}
 .form-group .form-control:focus{border-bottom:#023672 1px solid;}
