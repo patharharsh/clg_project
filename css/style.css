@@ -65,8 +65,8 @@ body{font-family: 'Heebo', sans-serif;}
 .dep_home .item .dept {width: 40%; margin: 0 auto;margin-top: 1rem}
 .dep_home .item .dept img{width: 100%}
 .dep_home .item .dep_name p{text-align: center;color: #023672;font-size: 21px;margin-top: 1rem}
-.dep_home .owl-nav div.owl-prev { top:50%; position:absolute; margin-top:-37px; right:-50px; opacity: .5; padding:10px 10px ;width: 5%}
-.dep_home .owl-nav div.owl-next { top:50%; position:absolute; margin-top:-37px; left:-50px; opacity: .5;padding:10px 10px;width: 5%}
+.dep_home .owl-nav div.owl-prev { top:50%; position:absolute; margin-top:-30px; right:99% ; opacity: .5; padding:10px 10px ;width: 5%}
+.dep_home .owl-nav div.owl-next { top:50%; position:absolute; margin-top:-30px; left:99%; opacity: .5;padding:10px 10px;width: 5%}
 .dep_home .owl-nav div.owl-prev img{width: 100%}
 .dep_home .owl-nav div.owl-next img{width: 100%}
 
@@ -80,7 +80,7 @@ body{font-family: 'Heebo', sans-serif;}
 .footer .footer_social {margin-top: 25px;text-align: center;}
 .footer .footer_social h4{color: #023672; font-weight: 700;font-size: 20px;text-align: center;}
 .footer .footer_social ul{list-style: none;text-align: center;padding: 0}
-.footer .footer_social ul li{list-style: none;display: inline-block;padding: 0 10;margin-bottom: 15px}
+.footer .footer_social ul li{list-style: none;display: inline-block;padding: 0 10px;}
 .footer .footer_social ul li a{text-decoration: none;}
 .footer .footer_social ul li a i{font-size: 25px;color: #023672; border: solid 4px #023672;border-radius: 50%;width: 50px;height: 50px;line-height: 43px}
 .footer .footer_social ul li a .fb{background: url(../img/FB2.png) center left/cover no-repeat;height: 50px;width: 50px;}
@@ -109,6 +109,8 @@ body{font-family: 'Heebo', sans-serif;}
 .about .about_title{color: #023672;font-size: 36px; text-align: center;margin-top: 1.5rem;font-weight: 700}
 .about .about_title h1{font-weight: 600}
 .about .about_text{text-align: justify;; margin-top: 1.5rem}
+.about .about_text ol{margin: 0;padding: 10px}
+.about .about_text ul{margin: 0;padding: 10px}
 .about .about_text span{font-size: 12px;}
 .about .about_text span code {font-size: 16px}
 .about .about_text .pla_text{margin: 1rem 0}
@@ -116,14 +118,13 @@ body{font-family: 'Heebo', sans-serif;}
 .about .about_text .place_img{width: 70%}
 .about .about_text .place_img img{width: 100%}
 
-.abt_pg {margin-left: 40%}
-.abt_pg .vis_mis_icon{width: 7%; float: left;}
-.abt_pg .vis_mis_icon img{width: 100%}
-.abt_pg .vis_mis_text{margin-left: 4rem;color: #023672;font-weight: 600;font-size: 36px}
+.about .vis_mis .title{color: #023672;text-align: center;line-height: 50px;font-size:36px;font-weight: 600; }
+.about .vis_mis .title img{width: 50px;}
+
 
 
 .about .dept_tab ul li a:focus{outline: none;}
-.about .dept_tab a{text-decoration: none;color: #023672}
+.about .dept_tab a{text-decoration: none;color: #023672;font-size: 15px}
 .about .dept_tab .tab-content p{margin-top: 1.5rem}
 .about .dept_tab .tab-content ul{margin-top: 1.5rem}
 .about .dept_tab .tab-content .vis_mis_bg{background:url(../img/solidbg.jpg) center top/cover no-repeat fixed ; position:relative; overflow: hidden; color: #fff}
@@ -160,9 +161,9 @@ body{font-family: 'Heebo', sans-serif;}
 .Faculty .item:hover .fec img{box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 8px 20px 0 rgba(0, 0, 0, 0.3);}
 .Faculty .item .fec_name p{text-align: center;color: #023672;font-size: 21px;margin-top: 1rem}
 .Faculty .item .fec_name p span{font-weight: 400;font-size: 16px}
-.Faculty .item .fec_detail ul{list-style: none;text-align:  center;}
+.Faculty .item .fec_detail ul{list-style: none;text-align:  center;margin: 0;padding: 0}
 .Faculty .item .fec_detail ul li{list-style: none;color: #023672;font-size: 16px;}
-.Faculty .item .fec_media ul{text-align: center;;list-style: none;}
+.Faculty .item .fec_media ul{text-align: center;;list-style: none;margin: 0;padding: 0}
 .Faculty .item .fec_media {}
 .Faculty .item .fec_media ul li{list-style: none;display: inline-block;;padding: 1rem}
 .Faculty .item .fec_media ul li a .media_icon_fb{background: url(../img/FB2.png) center left/cover no-repeat;height: 50px;width: 50px;}
@@ -177,7 +178,7 @@ body{font-family: 'Heebo', sans-serif;}
 .Faculty .owl-nav div.owl-next img{width: 100%}
 
 .adm_other{text-align: center;margin: 1.5rem 0}
-.adm_other ul{text-align: center; list-style: none;}
+.adm_other ul{text-align: center; list-style: none;margin: 0;padding: 0}
 .adm_other ul li{list-style: none;}
 .adm_other h3{color: #023672;font-weight: 600; font-size: 1.5rem}
 .adm_other p a{text-decoration: none; color: #ff8600}
