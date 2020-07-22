@@ -53,24 +53,33 @@
 .swiper-button-next{right: 2rem !important;}
 .swiper-button-prev{left: 2rem !important}
 
+.Welcome{margin: 0.5rem}
+
+.activites{margin-bottom: 0}
+
+.footer .use_link {margin-top: 0px}
+.footer .footer_contact{padding: 0}
+
 .Welcome .fea .fea_icon{width: 30%;margin: 0 auto;margin-top: 0px;margin-top: 4rem;}
 .Welcome .wel_title h1{font-size: 1.5rem;}
 .Welcome .fea {margin-top: 1rem;}
 .Welcome .fea .fea_icon {width: 30%;margin: 0 auto;margin-top: 0px;margin-top: 0px;margin-top: 1rem;}
-.Welcome .fea .fea_text  h4{font-size: 1.5rem}
+.Welcome .fea .fea_text  h4{font-size: 15px}
 
 .recent_update h1{ font-size: 1.5rem;}
-.about .about_title{font-size: 29px}
+.about .about_title{font-size: 25px}
 .about .about_title h1{font-size: 1.28rem}
 .about .about_title h3 span{font-size: .8rem}
 
-.abt_pg {margin-left: 15%}
-.abt_pg .vis_mis_icon{width: 10%; margin-left: 20%}
-.abt_pg .vis_mis_text{margin-left: 105px;color: #023672;font-weight: 600;font-size: 26px}
+.about .vis_mis .title img {width: 30px;}
+.about .vis_mis .title{font-size: 25px}
+
+.Faculty .item {padding: 10px 10px;background-color: #fff;min-height: 545px;}
 
 
 .about .vis_mis .vis_mis_title {margin: 0 auto;margin-left: auto;margin-left: 19%;}
-.about .dept_tab .tab-content .vis_mis .vis_mis_icon {width: 20%;}
+.about .dept_tab .tab-content .vis_mis .vis_mis_icon {width: 15%;margin-left: 20%}
+.about .dept_tab .tab-content .vis_mis .vis_mis_text {margin-left: 7rem;color: #023672;font-weight: 600;font-size: 36px;}
 
 
 .activites h1 { font-size: 1.5rem}
