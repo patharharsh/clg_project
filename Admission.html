@@ -255,8 +255,10 @@
       <div class="adm_inq">
         <div class="container">
           <div class="form_body">
-            <form action="">
-              <h1>Admission Inquiry</h1>
+            <form action="" name="admission" onsubmit="return validateForm()">
+              <div class="form_title">
+                <h1>Admission Inquiry</h1>
+              </div>
               <div class="fix_field">
                 <label style="margin-left: 10%; font-size:1rem"> Choice For :</label>
               <div class="radio_costom">
@@ -361,6 +363,15 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
+
+    function validateForm() {
+        var x = document.forms["admission"]["fullname"].value;
+        if (x == "") {
+        alert("Name must be filled out");
+        return false;
+        }
+        }
+
         var swiper = new Swiper('.swiper-container', {
           slidesPerView: 1,
           spaceBetween: 15,
