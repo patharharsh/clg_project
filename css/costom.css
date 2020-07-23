@@ -75,12 +75,14 @@
 .about .vis_mis .title{font-size: 25px}
 
 .Faculty .item {padding: 10px 10px;background-color: #fff;min-height: 545px;}
-
+.Faculty h1{font-size: 25px }
 
 .about .vis_mis .vis_mis_title {margin: 0 auto;margin-left: auto;margin-left: 19%;}
 .about .dept_tab .tab-content .vis_mis .vis_mis_icon {width: 15%;margin-left: 20%}
 .about .dept_tab .tab-content .vis_mis .vis_mis_text {margin-left: 7rem;color: #023672;font-weight: 600;font-size: 36px;}
+.about .dept_tab .tab-content h4{font-size: 21px}
 
+.form_input {margin-top: 10%}
 
 .activites h1 { font-size: 1.5rem}
 .activites .act_img{margin: 0 auto;}
@@ -112,10 +114,12 @@
 .fix_field select{width: 80%;;margin-left: 10%; font-size:1rem;border: 0;border-bottom: 1px solid #023672;font-family: inherit;-webkit-appearance: none;cursor: text}
 .field {display: flex;flex-flow: column-reverse;margin:.5rem;}
 .field input:not(:placeholder-shown) + label {transform: translate(-25px, 15px) scale(.8);;cursor: pointer;color:#023672;}
-.btn {margin-left: 12%;}
+.btn {margin-left: 0;}
+
+.mobo{display: none;}
 
 .event_pg .owl-nav div.owl-prev { right: 0}
-
+.event_pg h1{font-size: 25px}
 .event_pg h3{color: #ff8600;text-align: center;font-size: 20px}
 .event_pg .event_text .slde p{font-size: 15px;color: #023672;font-weight: 600;}
 

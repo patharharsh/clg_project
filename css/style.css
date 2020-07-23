@@ -125,16 +125,17 @@ body{font-family: 'Heebo', sans-serif;}
 
 .about .dept_tab ul li a:focus{outline: none;}
 .about .dept_tab a{text-decoration: none;color: #023672;font-size: 15px}
-.about .dept_tab .tab-content p{margin-top: 1.5rem}
-.about .dept_tab .tab-content ul{margin-top: 1.5rem}
+.about .dept_tab .tab-content p{margin-top: 1.5rem;text-align: justify;}
+.about .dept_tab .tab-content ul{margin:1.5rem 0 0 0; padding: 0 10PX}
+.about .dept_tab .tab-content ol{margin: 0;padding: 0 10px;text-align: justify;}
 .about .dept_tab .tab-content .vis_mis_bg{background:url(../img/solidbg.jpg) center top/cover no-repeat fixed ; position:relative; overflow: hidden; color: #fff}
 .about .dept_tab .tab-content .vis_mis .vis_mis_title{margin: 0 auto;}
 .about .dept_tab .tab-content .vis_mis .vis_mis_icon{width: 9%; float: left;margin-left: 33%}
 .about .dept_tab .tab-content .vis_mis .vis_mis_icon img{width: 100%}
 .about .dept_tab .tab-content .vis_mis .vis_mis_text{margin-left: 15rem;color: #023672;font-weight: 600;font-size: 36px}
-.about .dept_tab .tab-content .vis_mis p{margin-top: 1.5rem;text-align: justify;}
+.about .dept_tab .tab-content .vis_mis p{margin-top: 1rem;text-align: justify;}
 .about .dept_tab .tab-content .vis_mis h1{color: #023672;font-weight: 600}
-.about .dept_tab .tab-content .vis_mis ul{margin-top: 1.5rem;text-align: justify;}
+.about .dept_tab .tab-content .vis_mis ul{margin-top: 1.5rem;text-align: justify;margin: 0;padding: 0 10px}
 .about .dept_tab .tab-content  h4{color: #023672;font-weight: 600;text-align: center;margin-top: 0.5rem;font-size: 1.4rem}
 .about .dept_tab .tab-content h3{color: #023672;font-weight: 600;text-align: center;margin-top: 1.5rem;font-size: 1.4rem}
 .about .dept_tab .tab-content span{color: #ff8600;}
@@ -238,9 +239,13 @@ form {padding: 2rem 0;}
 .form-control:valid + .form-control-placeholder sup {color: #fff}
 
 
-.btn{margin-left: 40%;margin-bottom: 2.5%}
+.btn{margin-bottom: 2.5%;display: inline !important}
+.btn ul{padding: 0;text-align: center;}
+.btn ul li{padding: 0;display: inline-block;list-style: none;}
 .btn .mybtn{color: #fff;padding: .5rem 1rem;background-color: #023672;border: 1.5px solid #023672;font-weight: 600;transition: background .7s;margin: 0 10px}
 .btn .mybtn:hover{border: 1.5px solid #023672; color: #023672;background-color: transparent}
+
+.placeimg{margin: 0 auto;}
 
 .event_pg{margin: 1.5rem 0}
 .event_pg h1{color: #023672;text-align: center;font-weight: 600}
@@ -272,7 +277,9 @@ form {padding: 2rem 0;}
 
 
 
-.con_us .btn{margin-left: 14% ; margin-bottom: 10%}
+.con_us .btn{margin-bottom: 2.5%;display: inline !important}
+.con_us .btn ul{padding: 0;text-align: center;}
+.con_us .btn ul li{padding: 0;display: inline-block;list-style: none;}
 .con_us .btn .mybtn{color: #fff;padding: .5rem 1rem;background-color: #023672;border: 1.5px solid #023672;font-weight: 600;transition: background .7s;margin: 0 10px}
 .con_us .btn .mybtn:hover{border: 1.5px solid #023672; color: #023672;background-color: transparent}
 
