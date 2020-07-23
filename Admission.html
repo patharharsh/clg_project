@@ -21,7 +21,7 @@
   <body>
     <div class="container">
       <div class="header_logo">
-        <img src="img/finallogo.png" alt="logo">
+        <a href="index.html"><img src="img/finallogo.png" alt="logo"></a>
       </div>
     </div>
     <!--Navbar-->
@@ -265,7 +265,7 @@
                 <input type="radio" name="Choice" value="BE">
                 <label>B.E.</label>
                 <input type="radio" name="Choice" value="D2D">
-                <label>degree to deploma</label>
+                <label>Deploma to Degree</label>
               </div>
               </div>
               <div class="fix_field ">
@@ -279,7 +279,7 @@
               </div>
               <div class="form_input">
                 <div class="form-group">
-                  <input type="text" name="fullname" id="fullname" placeholder="" class="form-control" required>
+                  <input type="text" name="fullname" id="fullname" placeholder="" class="form-control" required title="name">
                   <label  class="form-control-placeholder" for="fullname">Name <sup>*</sup> </label>
                 </div>
                 <div class="form-group">
@@ -363,15 +363,6 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-
-    function validateForm() {
-        var x = document.forms["admission"]["fullname"].value;
-        if (x == "") {
-        alert("Name must be filled out");
-        return false;
-        }
-        }
-
         var swiper = new Swiper('.swiper-container', {
           slidesPerView: 1,
           spaceBetween: 15,
