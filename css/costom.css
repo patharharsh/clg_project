@@ -62,6 +62,8 @@
 .activites{margin-bottom: 0}
 .activites .act .act_text{margin-left: 0px}
 
+.activites .act_img {margin: 0 auto;max-height: 160px}
+
 .footer .use_link {margin-top: 0px}
 .footer .footer_contact{padding: 0}
 
