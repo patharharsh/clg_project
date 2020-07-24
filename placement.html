@@ -19,6 +19,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="se-pre-con"></div>
+    <div id='toTop'><img src="img/top.png" alt="top" /></div>
     <div class="container">
       <div class="header_logo">
         <a href="index.html"><img src="img/finallogo.png" alt="logo"></a>
@@ -339,6 +341,21 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
+  $(window).load(function() {
+  		// Animate loader off screen
+  		$(".se-pre-con").fadeOut("slow");;
+  	});
+  $(window).scroll(function() {
+    if ($(this).scrollTop()) {
+      $('#toTop').fadeIn();
+    } else {
+      $('#toTop').fadeOut();
+    }
+  });
+  $("#toTop").click(function () {
+    $("html, body").animate({scrollTop: 0}, 1000);
+  });
+
       var swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
         spaceBetween: 15,

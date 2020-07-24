@@ -19,6 +19,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="se-pre-con"></div>
+    <div id='toTop'><img src="img/top.png" alt="top" /></div>
     <div class="container">
       <div class="header_logo">
         <a href="index.html"><img src="img/finallogo.png" alt="logo"></a>
@@ -272,7 +274,7 @@
             secure. It also significantly enhances the technology and facilities available to students and faculty and also strengthens its systematic effort to
             support the effective use of technology to improve teaching, learning, research, assessment and the administration of the College.</p>
             <p>Our goal is not limited to provide the students with just academic knowledge but also encourage them towards building their career according to current
-            demands of the field. The Department provides innovative contemporary and accessible technology in computing and media services to enable the student,
+          topmands of the field. The Department provides innovative contemporary and accessible technology in computing and media services to enable the student,
             faculty and staff of the college to effectively meet their goals as a learning community and to work collaboratively with the campus community to
             provide technological leadership which emphasizes empowerment of the individual through the use of technology.</p>
           </div>
@@ -456,11 +458,28 @@
 
 
   <!-- js -------->
+
   <script src="js/jquery-1.9.1.min.js"></script>
   <script src="js/owl.carousel.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
+  $(window).load(function() {
+  		// Animate loader off screen
+  		$(".se-pre-con").fadeOut("slow");;
+  	});
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop()) {
+      $('#toTop').fadeIn();
+    } else {
+      $('#toTop').fadeOut();
+    }
+  });
+  $("#toTop").click(function () {
+    $("html, body").animate({scrollTop: 0}, 1000);
+  });
+
       var swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
         spaceBetween: 15,
