@@ -351,21 +351,26 @@
 <script src="js/jquery.sticky.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
-$(window).load(function() {
-		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
-	});
+      $(document).ready(function(){
+        $("#sticker").sticky({topSpacing:0});
+      });
 
-$(window).scroll(function() {
-  if ($(this).scrollTop()) {
-    $('#toTop').fadeIn();
-  } else {
-    $('#toTop').fadeOut();
-  }
-});
-$("#toTop").click(function () {
-  $("html, body").animate({scrollTop: 0}, 1000);
-});
+
+      $(window).load(function() {
+      		// Animate loader off screen
+      		$(".se-pre-con").fadeOut("slow");;
+      	});
+
+      $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+          $('#toTop').fadeIn();
+        } else {
+          $('#toTop').fadeOut();
+        }
+      });
+      $("#toTop").click(function () {
+        $("html, body").animate({scrollTop: 0}, 1000);
+      });
 
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
@@ -385,9 +390,6 @@ $("#toTop").click(function () {
       },
     });
 
-    $(document).ready(function(){
-    $("#sticker").sticky({topSpacing:0});
-    });
 
 
   $(document).ready(function(){
