@@ -134,7 +134,6 @@ a:focus{outline: none;}
 .about .vis_mis .title img{width: 50px;}
 
 
-
 .about .dept_tab ul li a:focus{outline: none;}
 .about .dept_tab a{text-decoration: none;color: #023672;font-size: 15px}
 .about .dept_tab .tab-content p{margin-top: 1.5rem;text-align: justify;}
@@ -189,6 +188,11 @@ a:focus{outline: none;}
 .Faculty .owl-nav div.owl-next { top:50%; position:absolute; margin-top:-37px; left:99%; opacity: .5;padding:10px 10px;width: 5%}
 .Faculty .owl-nav div.owl-prev img{width: 100%}
 .Faculty .owl-nav div.owl-next img{width: 100%}
+
+.tab-content .tab-pane .cutoff .cutoff_other{text-align: center;margin: 1.5rem 0}
+.tab-content .tab-pane .cutoff .cutoff_other p{text-align: center;}
+.tab-content .tab-pane .cutoff .cutoff_other p a{text-decoration: none; color: #ff8600;}
+.tab-content .tab-pane .cutoff .cutoff_other p a:hover {color: #023672}
 
 .adm_other{text-align: center;margin: 1.5rem 0}
 .adm_other ul{text-align: center; list-style: none;margin: 0;padding: 0}
