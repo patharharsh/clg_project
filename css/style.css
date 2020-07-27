@@ -14,13 +14,15 @@ body{font-family: 'Heebo', sans-serif;}
 .header_logo{margin: 0 auto;width: 30%;padding: 5px 0}
 .header_logo img{width: 100%}
 
+a:focus{outline: none;}
+
 .navmain{position: absolute;z-index: 11; width: 100%}
 .navmain .is-sticky .navbar {background:#023672;}
 .navbar-brand{display: none;}
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {color: rgba(255,255,255,.9) !important;}
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link{color: rgba(255,255,255,.7) !important;}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link :hover{color: rgba(255,255,255,.9) !important;}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{color: rgba(255,255,255,.9) !important;}
 .dropdown:hover>.dropdown-menu {display: block;}
 .dropdown-toggle::after {display:none;}
 
